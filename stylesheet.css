@@ -1,5 +1,62 @@
+
+.style-me1{
+    color: red;
+}
+#style-me2 {
+    color: blue;
+}
+
+.style-me1#style-me2 {
+    color: purple;
+}
+
 article{
     padding: 20px;
     margin: 20px 0;
     border: 1px solid black;
 }
+
+/* clarify this part for step 2.1 */
+.class-selector p {
+background: red;
+} 
+.my-children-are-styled>p {
+    background: red;
+}
+.box {
+    margin: 22px;
+    padding: 35px;
+    width: 80%;
+    height: 5vh;
+    border: 10px solid rgb(157, 42, 42);
+    overflow: auto;
+    outline: 10px;
+    border-radius: 20px 50% 50%;
+    background-image: url("/assets/images/burger.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* position not really doing much and z index doesn't change anything ... */
+.position-absolute {
+    position: left;
+    z-index: -1;
+}
+.position-relative {
+    position: relative;
+}
+.position-sticky {
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    border: 4px;
+}
+.text-style {
+    color: green;
+    font-size: 2em;
+    line-height: 5vh;
+    font-weight:  800px bold;
+    font-family: Roboto Condensed, sans-serif;
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap');
